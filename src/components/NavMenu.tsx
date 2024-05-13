@@ -3,7 +3,7 @@ import React from 'react'
 
 const NavMenu = () => {
   return (
-    <div className='mt-8 relative border-b border-[#EEEEEE] py-2'>
+    <div className=' mt-8 relative border-b border-[#EEEEEE] py-2'>
       <div className='flex justify-around'>
         <span className='items-center flex flex-col'>
           <Image src={"/flight.png"} alt='flight' width={52.8} height={52.8} />
