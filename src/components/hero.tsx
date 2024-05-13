@@ -1,7 +1,6 @@
 'use client'
 import Image from 'next/image';
 import React, { useState } from 'react';
-import Navmenu from "../components/NavMenu"
 
 let OneWayComponent = () => {
   const [showOneWayHeadings, setShowOneWayHeadings] = useState(false);
@@ -19,8 +18,7 @@ let OneWayComponent = () => {
 
   return (
     <div className='sm:hidden overflow-hidden'>
-      <Navmenu/>
-    <div className=" block pl-3 mt-[5rem] ">
+    <div className=" block pl-3">
       <div>
         <h1 className="text-[#0071BC] mt-8 text-[24px] font-bold">Let’s Book your next trip!</h1>
         <p className="text-[15px] mt-3 font-semibold">Choose best deals over 1.5 million travel services</p>
@@ -183,7 +181,7 @@ let OneWayComponent = () => {
       </div>
       
     </div>
-      <button className='w-[90%] bg-[#0071BC] rounded-lg mt-12 py-3 ml-5 text-white'>Search Flights</button>
+      <button className='w-[90%] bg-[#0071BC] rounded-lg mt-12 py-3 ml-5'>Search Flights</button>
       </div>
   );
 };
