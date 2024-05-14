@@ -44,7 +44,7 @@ const Hero = () => {
             <div className="absolute bottom-0 left-0 w-1/5 h-1 bg-[#0071BC] transition-all  duration-300"></div>
           )}
           {displayComponent === 'roundTrip' && (
-            <div className="absolute bottom-0 left-[25%] w-[23%] right-1/2 h-1 bg-[#0071BC] transition-all duration-300"></div>
+            <div className="absolute bottom-0 items-center left-[25%] w-[23%] right-1/2 h-1 bg-[#0071BC] transition-all duration-300"></div>
           )}
         </div>
 
